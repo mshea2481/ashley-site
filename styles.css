@@ -1,0 +1,69 @@
+body {
+  background-color: #202020;
+  font-family: Chalkduster;
+  font-size: 20px;
+  font-weight: 520;
+}
+
+.navcontainer {
+  display: flex;
+  line-height: 40px;
+  padding-top: 10px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li a{
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  margin: 0 10px;
+}
+
+.menu-center {
+  align-self: center;
+  transition: transform .2s;
+  list-style: none;
+}
+
+.menu-center:hover {
+  color: gray;
+  transform: scale(1.3);
+  list-style: none;
+  text-shadow: 2px 2px 5px gray;
+}
+
+.push-right {
+  margin-left: auto;
+  transition: transform .2s;
+}
+
+.push-right:hover {
+  transform: scale(1.3);
+}
+
+.hoverzoom {
+  transition: transform .2s;
+}
+
+.hoverzoom:hover {
+  transform: scale(1.3);
+}
+
+.carousel {
+  padding: 0px 50px 0px;
+}
+
+.bottomnavcontainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  line-height: 40px;
+  padding-top: 25px;
+  font-size: 16px;
+}
