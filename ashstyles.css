@@ -233,7 +233,19 @@ p {
   font-size: 14px;
   padding-left: 5px;
   padding-right: 5px;
-  background-color: #DCDCDC;
+  background-color: white;
+  min-width: 7rem;
+  line-height: 1.7rem;
+  top: 10px !important;
+  left: 0px !important;
+}
+
+.mobile-left-menu .menu {
+  list-style-type: none;
+  font-size: 13px;
+  padding-left: 18px;
+  padding-right: 5px;
+  background-color: white;
   min-width: 7rem;
   line-height: 1.7rem;
   top: 10px !important;
@@ -511,6 +523,8 @@ a[text=Menu] {
   list-style: none;
   padding: 5px 10px;
 }
+
+
 
 .border-top {
   border-top: 1px solid gray;
